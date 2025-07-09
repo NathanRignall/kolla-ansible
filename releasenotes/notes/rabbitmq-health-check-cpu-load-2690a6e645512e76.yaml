@@ -1,0 +1,10 @@
+---
+fixes:
+  - |
+    Fixes an issue where RabbitMQ health check and rabbitmq-diagnostics
+    cause a high CPU load on systems with many CPU cores.
+features:
+  - |
+    Adds ``rabbitmq_ctl_erl_args`` variable to set additional
+    ``RABBITMQ_CTL_ERL_ARGS`` args. Please see:
+    https://www.rabbitmq.com/runtime.html#configure
