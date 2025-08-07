@@ -1,0 +1,6 @@
+---
+fixes:
+  - |
+    Fixes a bug where the RabbitMQ task "Waiting for rabbitmq to start" would
+    fail because the pid file does not yet exist. `LP#2086707
+    <https://bugs.launchpad.net/kolla-ansible/+bug/2086707>`__
