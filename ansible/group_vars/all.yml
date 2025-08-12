@@ -601,6 +601,7 @@ rabbitmq_management_port: "15672"
 rabbitmq_cluster_port: "25672"
 rabbitmq_epmd_port: "4369"
 rabbitmq_prometheus_port: "15692"
+rabbitmq_ctl_erl_args: "+S 2:2"
 
 redis_port: "6379"
 redis_sentinel_port: "26379"
